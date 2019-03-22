@@ -1,0 +1,233 @@
+.category-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 90px;
+    width: 90%;
+    margin: 0% 5%;
+    border: 1px solid #568;
+    padding-left: 105px;
+    padding-top: 58px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+    align-content: center;
+  }
+  .prod-container{
+    /* height: 250px; */
+    width:250px;
+    
+    /* border: 1px solid #61dafb; */
+    margin: 5px 0px;
+  }
+  .prod-container:hover{
+    border: 1px solid #61dafb;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  
+  }
+  .prod-image{
+    width: 100%;
+    height: 230px;
+  }
+  .prod-image img{
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  .prod-desc{
+    width: 100%;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 80px;
+  }
+  .price{
+    position: absolute;
+    bottom: 4px;
+    right:8px;
+    color: rgb(216, 87, 87);
+    font-weight: 700;
+  }
+  .category-title{
+    font-family: 'Times New Roman', Times, serif;
+    background: rgba(85, 136, 92, 0.479);
+    padding: 1px 25px;
+    width: 90%;
+    margin: 1% 5%;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  .cat-title{
+    position: absolute;
+    width: 20%;
+    background: rgba(103, 138, 136, 0.904);
+    text-align: center;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  img:hover {opacity: 0.7;}
+  
+  
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    background: #282c34d0;
+    top:0;
+    left: 0;
+    padding: 0px 30px;
+    box-sizing: border-box;
+  }
+  
+  .nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-bar ul li{
+    padding: 2px 20px;
+    list-style: none;
+    cursor: pointer;
+    color: azure;
+    text-transform: uppercase;
+  }
+  .nav-bar ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-bar ul li a:hover{
+    color: #61dafb;
+  }
+  
+  .seeMore{
+    outline: none;
+    border: none;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background: rgba(136, 85, 85, 0.61);
+    cursor: pointer;
+  }
+  
+  .seeLess{
+    outline: none;
+    border: none;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background: rgba(85, 133, 136, 0.61);
+    cursor: pointer;
+}
+
+.product-detail-container{
+    width:80%;
+    margin: 80px 10%;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-gap: 95px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.product-detail-image{
+    text-align: right;
+}
+.product-detail-image img{
+    height: 90%;
+    width: 60%;
+}
+
+.product-detail-seal{
+    width: 70%;
+    border: 1px solid #787; 
+    box-sizing: border-box;
+    padding: 10px 25px;
+    padding-bottom: 40px;
+}
+
+.product-detail-seal h3,.product-detail-seal h4{
+    border-bottom: 1px solid #445;
+    padding-bottom: 20px;
+}
+
+.select-size{
+    outline: none;
+    border: none;
+    padding: 8px 25px;
+    min-width: 250px;
+}
+
+.add-card-btn{
+    min-width: 250px;
+    outline: none;
+    color: rgb(97, 184, 184);
+    border: 1px solid rgb(97, 184, 184);
+    padding: 8px 25px;
+    font-weight: 700;
+    background: none;
+    margin-top: 25px;
+}
+.add-card-btn:hover{
+    background: rgb(97, 184, 184);
+    color: white;
+    box-shadow: 1px 5px 18px rgba(0, 0, 0, 0.3);
+}
+
+.customer-container{
+    width : 80%;
+    margin: 60px 10%;
+    padding: 20px;
+    text-align: center;
+}
+
+.field{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 28px;
+}
+.field label{
+    text-align: right;
+}
+.field input{
+    outline: none;
+    color: #568;
+    width: 50%;
+    box-sizing: border-box;
+}
+.field input,.field label{
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.field button{
+    padding: 8px 30px;
+    width: 50%;
+    background: none;
+    outline: none;
+    border: 1px solid #1a8d5d;
+    color: #1a8d5d;
+}
+
+.customer-form-header{
+    background: rgb(136, 85, 85);
+    color: white;
+    padding: 12px 0px;
+    box-sizing: border-box;
+    width: 40%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
